@@ -49,7 +49,7 @@ Then, bind keys from "Preferences > Key Bindings – Default" menu, like:
 Note: This command should be called by the name "hugoblogcard" in Sublime Text 3 because of the Class name(see source code)
 
 ### Link
-+ [My Web site(about learning English from foreign TV shows, written in Japanese)](https://www.serendipity.page/)
++ [My Web Site(about learning English from foreign TV shows, written in Japanese)](https://www.serendipity.page/)
 + [Article about this plugin(not yet)]
 
 ---
