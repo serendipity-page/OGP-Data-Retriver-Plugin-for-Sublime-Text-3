@@ -5,9 +5,9 @@ This is a Python 3 code for "Sublime Text 3" plugin.
 When your clipboard has a URL string, this plugin tries to retrive the OGP(Open Graph Protocol) data from the URL, process it, and then insert the string at the current cursor.
 
 ### eg.(as of Feb. 7, 2021)
-clipboard string: "https://github.com/"
+clipboard string: "`https://github.com/`"
 
-inserted string: "{{< blogcard title = "GitHub: Where the world builds software" description = "GitHub is where over 56 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat..." site_name = "GitHub" image = "https://github.githubassets.com/images/modules/site/social-cards/github-social.png" url = "https://github.com/" >}}"
+inserted string: "`{{< blogcard title = "GitHub: Where the world builds software" description = "GitHub is where over 56 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat..." site_name = "GitHub" image = "https://github.githubassets.com/images/modules/site/social-cards/github-social.png" url = "https://github.com/" >}}`"
 
 ### Background
 I wrote this specifically for a static site generator [Hugo](https://gohugo.io/) because Hugo's shortcode does not let user retrive external data,
