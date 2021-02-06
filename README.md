@@ -69,7 +69,6 @@ arg_template = '%s = "%s"'
 
 上記２つのテンプレート文字列を変更することで、他のOGPに関連するテキスト編集にこのコマンドを使えるようになります。
 そして、他のOGP情報も下記リストに文字列を追加することで取得可能です。
-Also, you can obtain other OGP attributes by addin attribute name into args list.  
 
 ```python
 args = ["title", "description", "site_name", "image", "url"]
