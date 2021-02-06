@@ -15,6 +15,7 @@ I wrote this specifically for a static site generator [Hugo](https://gohugo.io/)
 and even though there are enormous workarounds on Internet, none of them seems to me fine.
 
 #### Tweak
+
 ```python
 shortcode_template = "{{< blogcard %s >}}"
 arg_template = '%s = "%s"'
@@ -29,7 +30,9 @@ args = ["title", "description", "site_name", "image", "url"]
 
 ### How to Install the Plugin
 Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3's user directory, in my case(on Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
-Binding Keys from Preferences > Key Bindings – Default menu, like:
+
+Then, bind keys from "Preferences > Key Bindings – Default" menu, like:
+
 ```json
 [
     { 
@@ -62,6 +65,7 @@ Note: This command should be called by the name "hugoblogcard" in Sublime Text 3
 自分は静的サイト生成アプリ[Hugo](https://gohugo.io/)向けにこのプログラムを書きました。というのも、Hugoのショートコードは外部リンク先のデータを参照させてくれず、ネット上には様々な回避策が挙がってますが、どれ一つ良さげに思えなかったからです。
 
 #### 調整
+
 ```python
 shortcode_template = "{{< blogcard %s >}}"
 arg_template = '%s = "%s"'
@@ -76,7 +80,9 @@ args = ["title", "description", "site_name", "image", "url"]
 
 ### このプラグインのインストールの仕方
 [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py)を「Sublime Text 3」のユーザーディレクトリーにダウンロードします。マックの私の場合、「/Users/username/Library/Application Support/Sublime Text 3/Packages/User」
-メニューからキーをバインドします：プリファレンス > キーバインディング > デフォルトから次のように：
+
+その後、メニューからキーをバインドします：「プリファレンス > キーバインディング > デフォルト」から次のように：
+
 ```json
 [
     { 
