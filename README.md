@@ -22,7 +22,7 @@ arg_template = '%s = "%s"'
 You can modify the processed string by changing the above two template strings.
 
 ## How to Install This Plugin
-Download HugoBlogCard.py file to your Sublime Text 3 User directory, in my case(Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
+Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3 User directory, in my case(Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
 Binding Keys from Preferences > Key Bindings – Default menu like
 ```json
 [
