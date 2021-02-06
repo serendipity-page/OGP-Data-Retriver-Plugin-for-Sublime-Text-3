@@ -19,10 +19,15 @@ shortcode_template = "{{< blogcard %s >}}"
 arg_template = '%s = "%s"'
 ```
 
-You can modify the processed string by changing the above two template strings.
+You can modify the processed string by changing the above two template strings to apply this command to other OGP related text editing.
+Also, you can obtain other OGP attributes by addin attribute name into args list.  
+
+```python
+args = ["title", "description", "site_name", "image", "url"]
+```
 
 ## How to Install This Plugin
-Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3 User directory, in my case(Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
+Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3's user directory, in my case(on Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
 Binding Keys from Preferences > Key Bindings – Default menu like
 ```json
 [
