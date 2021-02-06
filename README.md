@@ -5,10 +5,15 @@ This is a Python 3 code for "Sublime Text 3" plugin.
 
 When your clipboard has a URL string, this plugin tries to retrive the OGP(Open Graph Protocol) data from the URL, process it, and then insert the string at the current cursor.
 
-#### eg.(As of Feb. 7, 2021)
+#### Sample 1(As of Feb. 7, 2021)
 clipboard string: "`https://github.com/`"
 
 inserted string: "`{{< blogcard title = "GitHub: Where the world builds software" description = "GitHub is where over 56 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat..." site_name = "GitHub" image = "https://github.githubassets.com/images/modules/site/social-cards/github-social.png" url = "https://github.com/" >}}`"
+
+#### Sample 2(As of Feb. 7, 2021)
+clipboard string: "`https://edition.cnn.com/2021/02/05/politics/biden-trump-intelligence-briefing/index.html`"
+
+inserted string: "`{{< blogcard title = "Biden says Trump should no longer receive classified intelligence briefings" description = "President Joe Biden doesn't believe former President Donald Trump should receive classified intelligence briefings, as is tradition for past presidents, citing Trump's "erratic behavior unrelated to the insurrection."" site_name = "CNN" image = "https://cdn.cnn.com/cnnnext/dam/assets/210205130743-joe-biden-february-5-2021-02-super-tease.jpg" url = "https://www.cnn.com/2021/02/05/politics/biden-trump-intelligence-briefing/index.html" >}}`"
 
 #### Background
 I wrote this specifically for a static site generator [Hugo](https://gohugo.io/) because Hugo's shortcode does not let user retrive external data,
@@ -56,10 +61,15 @@ Note: This command should be called by the name "hugoblogcard" in Sublime Text 3
 
 もし、クリップボードにURL文字列が入っているなら、このプラグインはそのURLのOGP(Open Graph Protocol)データを取得し、加工し、そしてその加工文字列を現在カーソルのある場所に挿入します。
 
-#### 例（2021/02/07現在）
+#### 例１（2021/02/07現在）
 クリップボードの文字列: "`https://github.com/`"
 
 挿入される文字列: "`{{< blogcard title = "GitHub: Where the world builds software" description = "GitHub is where over 56 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and feat..." site_name = "GitHub" image = "https://github.githubassets.com/images/modules/site/social-cards/github-social.png" url = "https://github.com/" >}}`"
+
+#### 例２（2021/02/07現在）
+クリップボードの文字列: "`https://edition.cnn.com/2021/02/05/politics/biden-trump-intelligence-briefing/index.html`"
+
+挿入される文字列: "`{{< blogcard title = "Biden says Trump should no longer receive classified intelligence briefings" description = "President Joe Biden doesn't believe former President Donald Trump should receive classified intelligence briefings, as is tradition for past presidents, citing Trump's "erratic behavior unrelated to the insurrection."" site_name = "CNN" image = "https://cdn.cnn.com/cnnnext/dam/assets/210205130743-joe-biden-february-5-2021-02-super-tease.jpg" url = "https://www.cnn.com/2021/02/05/politics/biden-trump-intelligence-briefing/index.html" >}}`"
 
 #### 背景
 自分は静的サイト生成アプリ[Hugo](https://gohugo.io/)向けにこのプログラムを書きました。というのも、Hugoのショートコードは外部リンク先のデータを参照させてくれず、ネット上には様々な回避策が挙がってますが、どれ一つ良さげに思えなかったからです。
