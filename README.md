@@ -34,7 +34,7 @@ args = ["title", "description", "site_name", "image", "url"]
 ```
 
 ### How to Install the Plugin
-Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3's user directory, in my case(on Mac) /Users/username/Library/Application Support/Sublime Text 3/Packages/User.
+Download [HugoBlogCard.py](https://github.com/serendipity-page/OGP-Data-Retriver-Plugin-for-Sublime-Text-3/blob/main/HugoBlogCard.py) file to your Sublime Text 3's user directory, in my case(on Mac) "/Users/username/Library/Application Support/Sublime Text 3/Packages/User".
 
 Then, bind keys from "Preferences > Key Bindings – Default" menu, like:
 
