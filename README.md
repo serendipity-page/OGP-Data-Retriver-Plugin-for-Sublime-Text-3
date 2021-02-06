@@ -101,7 +101,7 @@ args = ["title", "description", "site_name", "image", "url"]
 ]
 ```
 
-注意点：このコマンドは「Sublime Text 3」上では"**hugoblogcard**"と言う名前で呼び出される必要があります、何故ならクラスの名前がそのようになっているためです。
+注意点：このコマンドは「Sublime Text 3」上では"**hugoblogcard**"と言う名前で呼び出される必要があります、何故ならクラス名がそのようになっているためです（ソースコードを見てください）。
 
 ### リンク
 + [海外ドラマの中の英語（私のサイト）](https://www.serendipity.page/)
