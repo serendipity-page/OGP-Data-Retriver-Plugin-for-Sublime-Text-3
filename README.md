@@ -17,7 +17,7 @@ inserted string: "`{{< blogcard title = "Biden says Trump should no longer recei
 
 #### Background
 I wrote this specifically for a static site generator [Hugo](https://gohugo.io/) because Hugo's shortcode does not let user retrive external data,
-and even though there are enormous workarounds on Internet, none of them seems to me fine.
+and even though there are enormous workarounds on Internet, **none of them seems to me right**.
 
 #### Tweak
 
@@ -46,7 +46,7 @@ Then, bind keys from "Preferences > Key Bindings – Default" menu, like:
 ]
 ```
 
-Note: This command should be called by the name "hugoblogcard" in Sublime Text 3 because of the Class name(see source code)
+Note: This command should be called by the name "**hugoblogcard**" in Sublime Text 3 because of the Class name(see source code)
 
 ### Link
 + [My Web Site(about learning English from foreign TV shows, written in Japanese)](https://www.serendipity.page/)
@@ -72,9 +72,9 @@ Note: This command should be called by the name "hugoblogcard" in Sublime Text 3
 挿入される文字列: "`{{< blogcard title = "Biden says Trump should no longer receive classified intelligence briefings" description = "President Joe Biden doesn't believe former President Donald Trump should receive classified intelligence briefings, as is tradition for past presidents, citing Trump's "erratic behavior unrelated to the insurrection."" site_name = "CNN" image = "https://cdn.cnn.com/cnnnext/dam/assets/210205130743-joe-biden-february-5-2021-02-super-tease.jpg" url = "https://www.cnn.com/2021/02/05/politics/biden-trump-intelligence-briefing/index.html" >}}`"
 
 #### 背景
-自分は静的サイト生成アプリ[Hugo](https://gohugo.io/)向けにこのプログラムを書きました。というのも、Hugoのショートコードは外部リンク先のデータを参照させてくれず、ネット上には様々な回避策が挙がってますが、どれ一つ良さげに思えなかったからです。
+自分は静的サイト生成アプリ[Hugo](https://gohugo.io/)向けにこのプログラムを書きました。というのも、Hugoのショートコードは外部リンク先のデータを参照させてくれず、ネット上には様々な回避策が挙がってますが、**どれ一つ良さげに思えなかった**からです。
 
-#### 調整
+#### 微調整
 
 ```python
 shortcode_template = "{{< blogcard %s >}}"
@@ -101,7 +101,7 @@ args = ["title", "description", "site_name", "image", "url"]
 ]
 ```
 
-注意点：このコマンドは「Sublime Text 3」上では"hugoblogcard"と言う名前で呼び出される必要があります、何故ならクラスの名前がそのようになっているため。
+注意点：このコマンドは「Sublime Text 3」上では"**hugoblogcard**"と言う名前で呼び出される必要があります、何故ならクラスの名前がそのようになっているためです。
 
 ### リンク
 + [海外ドラマの中の英語（私のサイト）](https://www.serendipity.page/)
